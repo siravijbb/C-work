@@ -6,7 +6,7 @@ s = float(input("Shunt: "))
 e = float(input("External: "))
 c = v / (s+e)
 print(c)
-for a in range(int(a),5):
+for a in range (int(b)):
         d = c*a/b
         print("KO =" + str(a) + " v/s")
         print("Ia = "+ str(d) + " A")
@@ -31,4 +31,5 @@ for a in range(int(a),5):
         t = pout / w
         print("w = " + str(w))
         print("rad/s t"+ str(w))
-        print("T = " + str(t) + " NM")
+        print("T = " + str(t) + " NM \n \n")
+        
